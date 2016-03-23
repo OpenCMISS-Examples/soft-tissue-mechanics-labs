@@ -5,9 +5,9 @@
 
 .. _lab1:
 
-****************************************************
-Lab 1: Deformation and stress in isotropic materials
-****************************************************
+****************************************************************
+Lab 1: Analysing deformation and stresses in isotropic materials
+****************************************************************
 
 .. toctree::
    :maxdepth: 2
@@ -28,11 +28,11 @@ Before starting this lab, please read the :ref:`Using OpenCMISS <using-opencmiss
 Solving mechanics models
 ========================
 
-1. Start OpenCMISS and load Lab1 (described in the :ref:`Starting OpenCMISS <starting-neon>` section).
+1. Start OpenCMISS and load Lab 1 (described in the :ref:`Starting OpenCMISS <starting-OpenCMISS>` section).
 
 |vspace|
 
-2. Select "Model 1 (uniaxial extension of a unit cube)" from the drop down menu and click the "run" button (screenshots of this procedure are shown in the :ref:`Running models in OpenCMISS <running-models-in-Neon>` section).
+2. Select "Model 1 (uniaxial extension of a unit cube)" from the drop down menu and click the "run" button (screenshots of this procedure are shown in the :ref:`Running models in OpenCMISS <running-models-in-OpenCMISS>` section).
 
 |vspace|
 
@@ -45,7 +45,7 @@ Solving mechanics models
   The left side of the pane shows the stress and strain tensors associated with the simulation. The simulation results are shown in the 3D graphics window on the right side of the pane. In this graphical window:
 
       - the undeformed (reference) configuration of the unit cube is shown in red, and
-      - the deformed (current) configuration is shown in green (x, y, z components of the deformed coordinates are shown at the corners of the model).
+      - the deformed (current) configuration is shown in green (:math:`x_{1}`, :math:`x_{2}`, :math:`x_{3}` components of the deformed coordinates are shown at the corners of the model, (note that in the graphical window, these components are labelled x, y, and z, respectively).
 
   The model in the 3D graphics window can be rotated (click-drag-left-mouse button), translated (click-drag-middle-mouse button), or zoomed (click-drag-right-mouse button).
 
@@ -67,7 +67,7 @@ Section 1: Strain analysis
 
 |vspace|
 
-5. Determine the deformation gradient tensor :math:`(\boldsymbol{F}=d\boldsymbol{x}/d\boldsymbol{X})`.
+5. Determine the deformation gradient tensor :math:`(\boldsymbol{F}=\frac{\partial\boldsymbol{x}}{\partial\boldsymbol{X}})`.
 
 |vspace|
 
@@ -103,6 +103,8 @@ Section 1: Strain analysis
 
 Questions
 ---------
+
+After you have completed the above exercises, answer the following questions: 
 
 a. What do the off-diagonal components of :math:`\boldsymbol{F}` mean?
 
@@ -144,6 +146,8 @@ Section 2: Stress analysis
 
 Questions
 ---------
+
+After you have completed the above exercises, answer the following questions: 
 
 a. In model 1, why are :math:`\Sigma_{22}` and :math:`\Sigma_{33}` zero. How do they relate to the deformation seen in the graphical window?
 

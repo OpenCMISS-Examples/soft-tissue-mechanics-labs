@@ -14,6 +14,9 @@ Contents:
    introduction
    running_OpenCMISS
    lab1
+   lab2
+   lab3
+..   improvements
 
 Indices and tables
 ==================
